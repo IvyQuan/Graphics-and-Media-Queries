@@ -1,0 +1,16 @@
+body{
+  background: rgb(252, 252, 228) url('https://img.search.brave.com/2rjX7BeIXfjDHZqXheq3nH9tizbyFU5tVUryxeWc20w/rs:fit:236:199:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vMjM2/eC9jYS8zZi9mMS9j/YTNmZjFkMGVmMDRl/MjBmYWUzNjA1MTdj/ZTc0NzhiOS5qcGc_/bmlpPXQ') repeat-y 50% 50%;
+ color: rgb(14, 65, 49);
+
+}
+
+@media only screen and (max-width:700px) {
+  body{
+    background-color:rgb(124, 172, 124);
+    color: white;
+  }
+
+  svg{
+    opacity:0.3;
+  }
+}
